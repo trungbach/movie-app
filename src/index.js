@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import 'antd/dist/antd.css';
+import 'react-modal-video/css/modal-video.min.css';
+
+import AppMovie from './movies/index';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppMovie />
   </React.StrictMode>,
   document.getElementById('root')
 );
