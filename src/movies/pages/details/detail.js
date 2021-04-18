@@ -1,6 +1,6 @@
 import React,{ useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { Row, Col, Skeleton, Image, Card, Button } from 'antd';
+import { Row, Col, Skeleton, Image, Button } from 'antd';
 import MasterLayoutMovie from '../../components/master-layout';
 import { api } from '../../services/api';
 import ModalVideo from 'react-modal-video'

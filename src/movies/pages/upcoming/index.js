@@ -5,7 +5,6 @@ import { api } from '../../services/api'
 import ListMovies from '../../components/list-movie';
 import { helper } from '../../helper/common';
 import PaginationMovie from '../../components/pagination';
-import moment from "moment";
 
 
 const { RangePicker } = DatePicker;
@@ -17,7 +16,6 @@ const UpcomingMoviePage = () => {
     const [fdate, setFromDate] = useState("");
     const [comingMovies, setComingMovies] = useState({});
     const [totalItem, setTotalItem] = useState(0);
-    const dateFormat = "YYYY-MM-DD";
 
     const getChooseDate = async (t1, t2, p = 1) => {
         setLoading(true);
