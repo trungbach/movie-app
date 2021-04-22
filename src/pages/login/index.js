@@ -1,7 +1,7 @@
 import {Row, Col, Form, Input, Button} from 'antd';
 import React, {useState} from 'react';
 import { useHistory } from "react-router-dom";
-import {helper} from '../../../helper/common';
+import {helper} from '../../helper/common';
 import {api} from '../../services/api';
 const layout = {
   labelCol: {
