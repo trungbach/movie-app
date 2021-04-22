@@ -40,11 +40,6 @@ const UpcomingMoviePage = () => {
                     <Space direction="vertical" size={12}>
                         <RangePicker 
                             onChange={(d1,d2) => getChooseDate(d1,d2)}
-                            // defaultValue={[
-                            //     moment("2021-01-01", dateFormat),
-                            //     moment("2021-04-01", dateFormat)
-                            // ]}
-                            
                         />
                     </Space>
                 </Col>
