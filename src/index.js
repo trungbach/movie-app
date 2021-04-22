@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 import 'react-modal-video/css/modal-video.min.css';
 
-import AppMovie from './movies/index';
+import RouteMovie from './route/index';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppMovie />
+    <RouteMovie />
   </React.StrictMode>,
   document.getElementById('root')
 );

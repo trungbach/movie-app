@@ -1,9 +1,5 @@
 import React, {Suspense} from "react";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route, Redirect
-  } from "react-router-dom";    
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";    
 import {Skeleton} from "antd";
 import {helper} from '../helper/common';
 const SearchMoviePage = React.lazy(() => import('../pages/search/index'));
@@ -11,6 +7,7 @@ const PopularMoviePage = React.lazy(() => import('../pages/popular/index'));
 const LoginPage = React.lazy(() => import('../pages/login/index'));
 const UpcomingMoviePage = React.lazy(() => import('../pages/upcoming/index'));
 const DetailMovie = React.lazy(() => import('../pages/details/detail'));
+
 const PrivateRouter = ({children, ...rest}) => {
     const auth = helper.isAuthenticated();
     return (

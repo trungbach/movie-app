@@ -4,7 +4,7 @@ import { Row, Col, Skeleton, Image, Button } from 'antd';
 import MasterLayoutMovie from '../../components/master-layout';
 import { api } from '../../services/api';
 import ModalVideo from 'react-modal-video'
-import {helper} from '../../helper/common';
+import {helper} from '../../../helper/common';
 const DetailMovie = () => {
     
     const [loading, setLoading] = useState(false);

@@ -3,7 +3,7 @@ import { DatePicker, Space, Row, Col } from 'antd';
 import MasterLayoutMovie from '../../components/master-layout';
 import { api } from '../../services/api'
 import ListMovies from '../../components/list-movie';
-import { helper } from '../../helper/common';
+import { helper } from '../../../helper/common';
 import PaginationMovie from '../../components/pagination';
 
 
